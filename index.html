@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evolution of Gaming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Basic Meta Tags -->
+<meta name="description" content="Discover the evolution of gaming from retro classics to modern masterpieces. Built with passion by Hassan, a front-end developer specialized in immersive gaming experiences.">
+<meta name="keywords" content="Gaming History, Game Website, Game Timeline, Landing Page, Hassan Developer, Gaming Evolution">
+<meta name="author" content="Hassan El-Sayed">
+
+<!-- Open Graph (Facebook & LinkedIn preview) -->
+<meta property="og:title" content="The Evolution of Gaming">
+<meta property="og:description" content="Explore the visual evolution of gaming through an interactive journey. Created by Hassan, front-end developer.">
+<meta property="og:image" content="https://your-domain.com/images/preview-image.jpg"> <!-- غيّرها للرابط المناسب -->
+<meta property="og:url" content="https://your-domain.com/">
+<meta property="og:type" content="website">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Evolution of Gaming">
+<meta name="twitter:description" content="Interactive journey through the history of gaming, crafted by front-end developer Hassan.">
+<meta name="twitter:image" content="https://your-domain.com/images/preview-image.jpg">
+
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Video Background -->
+        <div class="hero-background">
+            <div class="video-overlay"></div>
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="videos/gaming-evolution.mp4" type="video/mp4">
+                <!-- Fallback background if video doesn't load -->
+            </video>
+        </div>
+        
+        <!-- Particle Effect Container -->
+        <div id="particles-js"></div>
+        
+        <section class="hero-section">
+            <!-- Video Background -->
+            <div class="hero-background">
+                <div class="video-overlay"></div>
+                <video autoplay muted loop playsinline class="background-video">
+                    <source src="videos/gaming-evolution.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- Particle Effect Container -->
+            <div id="particles-js"></div>
+            
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <div class="hero-text-container">
+                    <h1 class="hero-title">
+                        <span class="title-line">The</span>
+                        <span class="title-line highlight">Evolution</span>
+                        <span class="title-line">of Gaming</span>
+                    </h1>
+                    <p class="hero-subtitle">From pixels to photorealism: Journey through gaming history</p>
+                    
+                    <div class="hero-buttons">
+                        <button class="primary-button">
+                            <span class="button-text">Learn the History</span>
+                            <span class="button-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 5L21 12M21 12L14 19M21 12H3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="secondary-button">Explore Games</button>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator - Moved outside hero-content to be at absolute bottom -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-text">Scroll to Explore</div>
+            </div>
+            
+            <!-- Decorative Elements -->
+            <div class="decorative-elements">
+                <div class="grid-lines"></div>
+                <div class="corner-decoration top-left"></div>
+                <div class="corner-decoration top-right"></div>
+                <div class="corner-decoration bottom-left"></div>
+                <div class="corner-decoration bottom-right"></div>
+            </div>
+        </section>
+            
+            <!-- Scroll Indicator - Moved to bottom of hero section -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-text">Scroll to Explore</div>
+            </div>
+        </div>
+        
+        <!-- Decorative Elements -->
+        <div class="decorative-elements">
+            <div class="grid-lines"></div>
+            <div class="corner-decoration top-left"></div>
+            <div class="corner-decoration top-right"></div>
+            <div class="corner-decoration bottom-left"></div>
+            <div class="corner-decoration bottom-right"></div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline">
+        <h2 class="section-title">Timeline</h2>
+        
+        <div class="timeline-container">
+            <!-- Vertical line -->
+            <div class="timeline-line"></div>
+            
+            <!-- 1970s -->
+            <div class="timeline-item" data-era="1970s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content left">
+                    <div class="timeline-image">
+                        <img src="images/pacman.webp" alt="Pac-Man" loading="lazy">
+                    </div>
+                    <div class="timeline-text">
+                        <p>The birth of arcade gaming with iconic titles like Pac-Man revolutionizing entertainment.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 1980s -->
+            <div class="timeline-item" data-era="1980s">
+
+                <div class="timeline-dot"></div>
+                <div class="timeline-content right">
+                    <div class="timeline-image">
+                        <img src="images/mario.webp" alt="Mario" loading="lazy">
+                    </div>
+                    <div class="timeline-text">
+                        <p>Home console gaming exploded with Nintendo and the iconic Mario Bros changing gaming forever.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2000s -->
+            <div class="timeline-item" data-era="2000s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content left">
+                    <div class="timeline-image">
+                        <img src="images/csgo.webp" alt="Modern RPG Character"  loading="lazy">
+                    </div>
+                    <div class="timeline-text">
+                        <p>Online multiplayer and sophisticated RPGs became mainstream, connecting players worldwide.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2010s -->
+            <div class="timeline-item" data-era="2010s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content right">
+                    <div class="timeline-image">
+                        <img src="images/gta3.webp" alt="Modern Gaming Character" loading="lazy">
+                    </div>
+                    <div class="timeline-text">
+                        <p>Gaming expanded to mobile platforms while AAA titles reached new heights of realism and complexity.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2020s -->
+            <div class="timeline-item" data-era="2020s">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content left">
+                    <div class="timeline-image">
+                        <img src="images/melina.webp" alt="Modern Gaming Character" loading="lazy">
+                    </div>
+                    <div class="timeline-text">
+                        <p>Next-gen consoles and advanced graphics enabled incredibly detailed characters and immersive worlds like never before.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     
+    
+    <!-- Featured Games Section -->
+    <section class="featured-games" id="featured-games">
+        <h2 class="section-title">Featured Games</h2>
+        
+        <div class="cards-container">
+            <!-- The Last of Us -->
+            <div class="game-card">
+                <div class="card-image">
+                    <img src="images/The-Lastof-Us.webp" alt="The Last of Us"   loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">The Last of Us</h3>
+                    <div class="card-year">Year: 2013</div>
+                    <p class="card-description">The game that redefined emotional storytelling</p>
+                </div>
+            </div>
+            
+            <!-- God of War -->
+            <div class="game-card">
+                <div class="card-image">
+                    <img src="images/God-of-War.webp" alt="God of War" loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">God of War</h3>
+                    <div class="card-year">Year: 2018</div>
+                    <p class="card-description">A mythic rebirth of an iconic warrior</p>
+                </div>
+            </div>
+            
+            <!-- Red Dead Redemption 2 -->
+            <div class="game-card">
+                <div class="card-image">
+                    <img src="images/Red-Dead-Redemption2.webp" alt="Red Dead Redemption 2" loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Red Dead Redemption 2</h3>
+                    <div class="card-year">Year: 2018</div>
+                    <p class="card-description">The ultimate open-world Western saga</p>
+                </div>
+            </div>
+            
+            <!-- The Witcher 3 -->
+            <div class="game-card">
+                <div class="card-image">
+                    <img src="images/the-witcher.webp" alt="The Witcher 3" loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">The Witcher 3</h3>
+                    <div class="card-year">Year: 2015</div>
+                    <p class="card-description">A fantasy epic with unparalleled depth</p>
+                </div>
+            </div>
+            
+            <!-- Elden Ring -->
+            <div class="game-card">
+                <div class="card-image">
+                    <img src="images/elden-ring.webp" alt="Elden Ring" loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Elden Ring</h3>
+                    <div class="card-year">Year: 2022</div>
+                    <p class="card-description">A challenging adventure in a beautifully crafted world</p>
+                </div>
+            </div>
+            
+            <!-- GTA V -->
+            <div class="game-card">
+                <div class="card-image">
+                    <img src="images/gtaV.webp" alt="Grand Theft Auto V"    loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Grand Theft Auto V</h3>
+                    <div class="card-year">Year: 2013</div>
+                    <p class="card-description">The crime epic that defined a generation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology-section">
+        <div class="section-container">
+            <h2 class="section-title">How Technology Changed Gaming</h2>
+            
+            <div class="tech-content">
+                <!-- Left Column - Text Timeline -->
+                <div class="tech-text-column">
+                    <div class="tech-era">
+                        <p class="era-text">
+                            Video gaming began in the 1970s with simple systems like Atari. Over decades, advancements in hardware transformed gaming from basic pixels to immersive experiences. It's amazing how far we've come with games today.
+                        </p>
+                    </div>
+                    
+                    <div class="tech-era">
+                        <p class="era-text">
+                            The 1980s introduced home consoles like NES and Sega Genesis. These systems brought 2D classics like Super Mario Bros. and Sonic into homes, making gaming a global phenomenon.
+                        </p>
+                    </div>
+                    
+                    <div class="tech-era">
+                        <p class="era-text">
+                            The 1990s saw the rise of 3D graphics with consoles like PlayStation and Nintendo 64. Gamers explored vast worlds and experienced deeper storytelling, setting new standards for the industry.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Center - Console Image -->
+                <div class="tech-image-column">
+                    <div class="console-image-container">
+                        <img src="images/PS5.webp" alt="PlayStation 5 Console" loading="lazy" class="console-image">
+                        <div class="console-glow"></div>
+                    </div>
+                </div>
+                
+                <!-- Right Column - Modern Era -->
+                <div class="tech-modern-column">
+                    <div class="modern-era">
+                        <p class="modern-text">
+                            Today, consoles like PlayStation 5 and Xbox Series X offer cutting-edge tech, including VR and 4K graphics. These innovations enable developers to create expansive, cinematic experiences.
+                        </p>
+                    </div>
+                    
+                    <div class="modern-era">
+                        <p class="modern-text">
+                            Advanced hardware has enhanced every aspect of gaming, from AI to sound design. The result? Richer, more immersive games that captivate players worldwide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Background Elements -->
+        <div class="tech-background">
+            <div class="bg-image left-bg"></div>
+            <div class="bg-image center-bg"></div>
+            <div class="bg-image right-bg"></div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <h3 class="cta-title">Let's start to create your website</h3>
+            
+            <p>
+                Need a high-converting landing page for your business, product, or service?  
+                I'm Hassan, a front-end developer focused on creating fast, modern, and SEO-friendly websites.
+              </p>
+              <ul class="cta-highlights">
+                <li> <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="responsive" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M3,14V4A2,2,0,0,1,5,2H19a2,2,0,0,1,2,2V6a1,1,0,0,1-1,1H13a3,3,0,0,0-3,3v7a1,1,0,0,1-1,1H4a2,2,0,0,1-2-2V15A1,1,0,0,1,3,14Z" style="fill: #C45FA0;"></path><path id="secondary" d="M3,14h7v3a1,1,0,0,1-1,1H4a2,2,0,0,1-2-2V15A1,1,0,0,1,3,14ZM20,8H13a2,2,0,0,0-2,2V20a2,2,0,0,0,2,2h7a2,2,0,0,0,2-2V10A2,2,0,0,0,20,8Z" style="fill: #4A5699;"></path><path id="primary-2" data-name="primary" d="M13.72,8,14,9.24A1,1,0,0,0,15,10h3a1,1,0,0,0,1-.76L19.28,8Z" style="fill: #C45FA0;"></path></g></svg>Responsive design tailored to your brand</li>
+                <li> <svg width="20px" height="20px" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M597.678 480.76L390.797 333.998c-22.209-15.766-53-10.532-68.762 11.687l-2.04 2.871c-15.753 22.214-10.526 53 11.691 68.762l206.876 146.771c22.218 15.757 53 10.527 68.766-11.687l2.035-2.876c15.768-22.218 10.529-53.005-11.685-68.766z" fill="#F39A2B" /><path d="M585.066 423.392l-2.871-2.034c-22.218-15.763-53.004-10.527-68.766 11.687L279.007 763.472c-15.762 22.214-10.527 53.005 11.69 68.763l2.871 2.04c22.218 15.762 53.004 10.53 68.762-11.688l234.423-330.428c15.767-22.22 10.531-53.001-11.687-68.767z" fill="#E5594F" /><path d="M891.662 525.126c-0.363 50.106-8.104 91.767-27.502 142.522-13.232 34.625-44.231 82.177-70.529 111.108-62.993 69.31-152.478 113.292-240.772 121.615-100.773 9.501-189.621-17.478-271.287-78.551 7.65 5.723-7.536-6.408-7.061-6.009-4.562-3.821-8.967-7.82-13.369-11.824-8.803-8.003-17.105-16.535-25.225-25.224-18.148-19.432-26.188-30.526-41.439-54.866-27.11-43.264-40.704-80.283-51.007-132.536-4.015-20.354-5.395-39.803-5.586-66.233-0.531-73.33-114.29-73.381-113.758 0 1.607 222.487 154.098 420.146 370.093 475.715 216.482 55.697 449.039-49.258 553.91-245.54 37.754-70.664 56.715-150.224 57.293-230.179 0.526-73.379-113.231-73.328-113.761 0.002z" fill="#4A5699" /><path d="M137.884 501.467c0.362-50.104 8.103-91.762 27.502-142.52 13.233-34.621 44.233-82.173 70.53-111.108 62.993-69.309 152.472-113.29 240.768-121.615 100.773-9.5 189.626 17.479 271.292 78.554-7.652-5.721 7.532 6.408 7.057 6.01 4.563 3.819 8.968 7.821 13.371 11.823 8.803 8 17.108 16.535 25.228 25.225 18.147 19.43 26.187 30.526 41.438 54.866 27.111 43.264 40.709 80.28 51.009 132.533 4.014 20.352 5.396 39.804 5.586 66.232 0.529 73.33 114.287 73.384 113.76 0-1.608-222.489-154.107-420.144-370.099-475.715-216.482-55.7-449.036 49.26-553.905 245.541-37.753 70.664-56.715 150.219-57.292 230.174-0.534 73.384 113.225 73.33 113.755 0z" fill="#C45FA0" /></svg> Fast loading and optimized for performance</li>
+                <li> <svg width="20px" height="20px" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M466.63 332.141l-2.949-2.286c-22.823-17.687-55.664-13.527-73.352 9.296L168.406 625.474c-17.691 22.821-13.529 55.66 9.297 73.354l2.949 2.29c22.826 17.683 55.666 13.528 73.352-9.299l221.922-286.32c17.694-22.824 13.53-55.669-9.296-73.358z" fill="#E5594F" /><path d="M700.612 619.811L475.887 335.684c-17.915-22.648-50.795-26.486-73.444-8.571l-2.925 2.315c-22.649 17.915-26.489 50.793-8.574 73.442l224.724 284.125c17.91 22.649 50.796 26.488 73.445 8.573l2.925-2.317c22.65-17.911 26.489-50.797 8.574-73.44z" fill="#F39A2B" /><path d="M970.613 897.67H55.454c-25.734 0-46.588 23.407-46.588 52.283v3.736c0 28.876 20.854 52.284 46.588 52.284h915.16c25.734 0 46.59-23.408 46.59-52.284v-3.736c-0.001-28.876-20.856-52.283-46.591-52.283z" fill="#C45FA0" /><path d="M66.425 15.049h-3.736c-28.876 0-52.284 20.551-52.284 45.901v901.601c0 25.353 23.407 45.9 52.284 45.9h3.736c28.876 0 52.284-20.548 52.284-45.9V60.95c0-25.35-23.408-45.901-52.284-45.901z" fill="#4A5699" /><path d="M914.9 334.433l-2.91-2.346c-22.489-18.107-55.408-14.549-73.51 7.94L611.312 622.201c-18.113 22.491-14.556 55.41 7.938 73.517l2.905 2.347c22.494 18.107 55.408 14.546 73.52-7.941l227.169-282.18c18.106-22.49 14.546-55.403-7.944-73.511z" fill="#F0D043" /></svg>SEO-ready structure to grow your reach</li>
+                <li><svg width="20px" height="20px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M953.6 234.666667L768 418.133333s-55.466667 0-110.933333-55.466666-55.466667-110.933333-55.466667-110.933334l185.6-185.6c-104.533333-25.6-230.4 8.533333-307.2 85.333334-115.2 115.2-12.8 262.4-42.666667 292.266666C275.2 612.266667 108.8 740.266667 104.533333 746.666667c-49.066667 49.066667-51.2 128-4.266666 174.933333 46.933333 46.933333 125.866667 44.8 174.933333-4.266667 6.4-6.4 142.933333-179.2 302.933333-339.2 29.866667-29.866667 170.666667 78.933333 290.133334-38.4 74.666667-76.8 110.933333-200.533333 85.333333-305.066666zM200.533333 876.8c-29.866667 0-53.333333-23.466667-53.333333-53.333333C147.2 791.466667 170.666667 768 200.533333 768s53.333333 23.466667 53.333334 53.333333-23.466667 55.466667-53.333334 55.466667z" fill="#607D8B"></path></g></svg>Clear communication and ongoing support</li>
+              </ul>
+               <button class="cta-button">Start Now</button>
+          
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    
+                    <p>Creating immersive gaming websites that capture the evolution of gaming technology</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Connect With Me</h4>
+                    <p>Let me help you create an engaging website that stands out</p>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/eng-hassan" class="social-link linkedin" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        
+                        <a href="https://github.com/hastrs" class="social-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        
+                        <a href="mailto:hastr.dev@gmail.com" class="social-link email">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email Me</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Game Landing Pages</li>
+                        <li>Interactive UI/UX</li>
+                        <li>Performance Optimization</li>
+                        <li>Responsive Design</li>
+                        <li>SEO Optimization</li>
+                        <li>3D Game Card Galleries</li>
+                        <li>Custom Animation Effects</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hassan El-Sayed </p>
+                <p>Designed and developed with passion for gaming</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
