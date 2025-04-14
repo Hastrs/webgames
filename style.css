@@ -22,6 +22,16 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar{
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+  }
+  ::-webkit-scrollbar-track{
+    background-color: var(--dark-color);
+  }
 /* ============================================
    Hero Section Styles
    ============================================ */
@@ -1181,6 +1191,9 @@ opacity:0;
    Responsive Design
    ============================================ */
 @media screen and (max-width: 992px) {
+    ::-webkit-scrollbar{
+        width: 12px;
+      }
     .hero-title {
         font-size: 3.5rem;
     }
@@ -1240,6 +1253,9 @@ opacity:0;
 }
 
 @media screen and (max-width: 768px) {
+    ::-webkit-scrollbar{
+        width: 9px;
+      }
     .hero-title {
         font-size: 3rem;
     }
